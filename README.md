@@ -1,4 +1,4 @@
-# ✈️ ASTP Project — Time Series Analysis and Forecasting
+# ✈️ TSAF Project — Time Series Analysis and Forecasting
 
 This project was developed as part of the **Time Series Analysis and Forecasting (ASTP)** course in the Master's in Data Science program.
 

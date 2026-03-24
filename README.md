@@ -1,12 +1,12 @@
-# ✈️ Projeto ASTP — Análise de Séries Temporais e Previsão
+# ✈️ ASTP Project — Time Series Analysis and Forecasting
 
-Este projeto foi desenvolvido no âmbito da unidade curricular de **Análise de Séries Temporais e Previsão (ASTP)** do Mestrado em Ciência de Dados.
+This project was developed as part of the **Time Series Analysis and Forecasting (ASTP)** course in the Master's in Data Science program.
 
-O objetivo central é aplicar técnicas de **análise exploratória, modelação clássica, modelação com deep learning** e **análise de causalidade** sobre séries temporais relacionadas com o setor da aviação, nomeadamente **atrasos e cancelamentos de voos**, complementadas com dados meteorológicos reais.
+The main objective is to apply **exploratory analysis, classical modeling, deep learning modeling**, and **causality analysis** techniques on time series related to the aviation sector, namely **flight delays and cancellations**, complemented with real weather data.
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## 🗂️ Project Structure
 
 ```bash
 📁 data/
@@ -15,24 +15,24 @@ O objetivo central é aplicar técnicas de **análise exploratória, modelação
 ├── causality-dataset-2018-2022_Final.csv
 
 📁 notebooks/
-
 ├── fligth-delay-cleaning.ipynb  
-➡️ Limpeza e agregação dos dados de atrasos e cancelamentos de voos, por data.
+➡️ Cleaning and aggregation of flight delay and cancellation data, by date.
 
 ├── weather-events-cleaning.ipynb  
-➡️ Tratamento e filtragem dos dados meteorológicos, agregando os eventos diários por tipo.
+➡️ Processing and filtering of weather data, aggregating daily events by type.
 
 ├── fligth-delay-EDA.ipynb  
-➡️ EDA das séries de atrasos e cancelamentos com testes de normalidade e estacionariedade, etc.
+➡️ EDA of delay and cancellation series with normality and stationarity tests, etc.
 
 ├── weather-events-EDA.ipynb  
-➡️ EDA completa das variáveis meteorológicas com visualizações, testes estatísticos e correlações, etc.
+➡️ Full EDA of weather variables with visualizations, statistical tests, and correlations, etc.
 
 ├── modelacao-classica.ipynb  
-➡️ Aplicação de modelos ETS para prever atrasos e cancelamentos, com avaliação in/out-of-sample.
+➡️ Application of ETS models to forecast delays and cancellations, with in/out-of-sample evaluation.
 
 ├── modelacao-deep-learning.ipynb  
-➡️ Treino de uma RNN para previsão das séries temporais, com avaliação in/out-of-sample.
+➡️ Training of an RNN for time series forecasting, with in/out-of-sample evaluation.
 
 ├── granger-causality.ipynb  
-➡️ Teste de causalidade de Granger entre eventos climáticos e operações aéreas, com visualizações e interpretação.
+➡️ Granger causality test between weather events and flight operations, with visualizations and interpretation.
+```
